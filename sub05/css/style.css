@@ -1,0 +1,34 @@
+﻿#section{width:1420px; height: 1380px; margin: 0 auto;}
+#section_left{width: 800px; height: 1330px; margin-left: 100px; float: left; margin-top: 50px;}
+
+/* 게시판 검색창 */
+#search_wrap fieldset{float: right; margin: 0 20px 10px 0;}
+#search_wrap select, #search_wrap input{vertical-align: middle; border: 1px solid #aaaaaa; padding-bottom: 2px; margin-right: 20px;}
+#search_wrap select{height: 24px;}
+#search_wrap input{height: 22px;}
+#search_wrap button{height: 24px; width: 60px; background: #707784; color: #ffffff; border-radius: 5px; line-height: 24px;}
+#search_wrap button:hover{cursor: pointer; color: #666666;}
+
+/* 게시판 목록 */
+#board{width: 800px; height: 500px;}
+#board > .first{clear: both; background-color: #ffde02; border-radius: 10px 10px 0 0; color: #333333; font-weight: bold; text-shadow: 0 0 1px #ffffff;}
+#board > .first .title1{border-radius: 10px 0 0 0;}
+#board > .first .title4{border-radius: 0 10px 0 0;}
+#board > div:hover{background-color: #ffffee;}
+#board > div input{display: none;}
+#board > .first > div{line-height: 50px; height: 50px; text-align: center; float: left;}
+#board > div > div{width: 100px; line-height: 50px; height: 50px; text-align: center; float: left; border-bottom: 1px dotted #ffde02;}
+#board > div:hover > div{background-color: #efefef;}
+#board > .first:hover > div{background-color: #ffcc00;}
+
+/* 게시판 세부 목록 */
+#board .title2{width: 500px; text-align: justify;}
+#board .content_wrap{height: auto; width: 96%; text-align: left; padding: 2%; display: none;}
+
+/* #board input:checked ~ div.content_wrap{display: block;} */
+/* #board input:checked ~ div.title2 > label{cursor: default;} */
+/* #board label{cursor: pointer; line-height: 50px; height: 50px; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;} */
+#board .label{cursor: pointer; line-height: 50px; height: 50px; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.subject{text-align: justify; font-weight: bold; font-size: 16px; background: #dfdfdf; padding: 10px 20px; line-height: 26px;}
+.content{text-align: justify; padding: 10px 20px; background: #ffffff; line-height: 24px; border-bottom: 1px solid #dddddd;}
+

@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/* Base */
+html{font-family: 'Helvetica Nenu', 'Arial', sans-serif; height: 100%;}
+body{height: 100%;}
+p{margin: 0;}
+.scene{position: relative; height: 1080px; overflow: hidden; width; 100%;}
+
+.scene1{height: 1080px; background: red;}
+.scene3{height: 1080px; background: blue;}
+
+/* 인포 그래픽 */
+#scene2 .scene_bg{position: absolute; min-width: 100%; min-height: 100%; width: auto; height: auto;}
+#scene2_content{position: absolute; width: 30%; min-width: 600px; height: 100%; top: 0; right: -50%;}
+.charts{position: relative; margin: 0 auto; width: 600px; height: 600px; top: 50%; margin-top: -300px; overflow: hidden;}
+.chart{float: left; position: relative; margin: 20px; width: 240px; height: 240px;}
+.circle_mask_outer, .circle_mask_inner{overflow: hidden; position: absolute; width: 120px; height: 240px;}
+.circle_mask_outer.left{left: 0;}
+.circle_mask_outer.right{right: 0;}
+.circle_mask_outer.left .circle_mask_inner{left: 100%; transform-origin: 0 50%;}
+.circle_mask_outer.right .circle_mask_inner{right: 100%; transform-origin: 100% 50%;}
+
+.circle_body{border-radius: 50%; position: absolute; width: 240px; height: 240px; }
+	.circle_mask_outer.left .circle_body{right: 0;}
+	.circle_mask_outer.right .circle_body{left: 0;}
+	#water .circle_body{background-color: #0078ff;}
+	#sunshine .circle_body{background-color: #ef6122;}
+	#birds .circle_body{background-color: #9a22ef;}
+	#woods .circle_body{background-color: #138600;}
+.chart_content{position: absolute; left: 20px; top: 20px; width: 200px; height: 160px; background-color: #ffffff; border-radius: 50%; padding-top: 40px; text-align: center; box-shadow: 0 0 20px rgba(0,0,0,.5); } 	
+	.chart_content .text{left: 5px; line-height: 1; position: relative;}
+.chart_content .percent_number{font-size: 50px; font-weight: bold;}	
+	.chart_content .percent_symbol{font-size: 30px;}
+
+.no_borderradius .chart_content, .no_csstransforms .chart_content{top: 0; left: 0; width: 240px; height: 180px; padding-top: 60px; background: url(../img/chart-bg.png) no-repeat 0 0;}
+.no_borderradius #sunshine .chart_content, 
+.no_csstransforms #sunshine .chart_content{background-position: -240px 0;}
+.no_borderradius #birds .chart_content, 
+.no_csstransforms #birds .chart_content{background-position: -480px 0;}
+.no_borderradius #woods .chart_content, 
+.no_csstransforms #woods .chart_content{background-position: -720px 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

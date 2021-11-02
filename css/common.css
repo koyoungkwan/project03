@@ -1,0 +1,98 @@
+﻿*{margin: 0; padding: 0; border: 0;}
+ul,li{list-style: none;}
+html{overflow-y: scroll;}
+body, select, input{font: 14px '맑은 고딕', sans-serif; color: #333333;}
+.cf:after{content: ''; display: block; clear: both;}
+.fl{float: left;}
+
+a{ text-decoration:none; color: #333333;} 
+
+
+
+#top_banner{width: 100%; background:#1c875b; z-index: 2;}
+.tbanner{width: 1420px; margin: 0 auto;}
+.notice{height:80px; background:url(../images/top_banner.png) no-repeat center center;position: relative; /* padding:0 50px; */cursor: pointer;}
+.top_pop_btn{width:1420px; height:0; position:relative; top:0; margin:0 auto; padding:0 100px; }
+.btn_popup{width:51px; height:20px;  transition:all .5s; position:absolute; z-index:15; background:url(../images/top_close.png) no-repeat center center; top:-35px; right:265px; cursor:pointer;}
+
+
+header{width: 100%; height: 135px;}
+#header{width: 100%; margin: 0 auto; position: relative; border-top:1px solid #dddddd; border-bottom: 1px solid #dddddd;}
+#main_top{width: 1420px; height: 60px; margin-top: 15px; margin-bottom: 15px; position: relative; font-size: 23px; margin: 0 auto; }
+	#main_gnb_right{float: right; height: 22px; background-color: #ffffff; border-radius: 0 0 20px 20px; padding-left: 20px; padding-right: 20px; margin-top: 15px; margin-right: 20px; }
+		#main_gnb_right ul li{float: left; list-style-type: none; }
+		#main_gnb_right ul li.last{float: left; list-style-type: none;}
+		#main_gnb_right ul li a{display: block; font-size: 14px; padding: 2px 10px; color: #444444; border-right: 1px solid #666666;}
+		#main_gnb_right ul li.last a{border-right: none;}
+	
+	#main_logo{margin-top: 15px; margin-left: 32px; float: left; list-style-type: none; }
+		#main_logo img{width: 170px; height: 30px; margin-top: -5px;}
+	
+	#main_gnb_left{float: left; height: 22px; background-color: #ffffff; border-radius: 0 0 20px 20px; padding-left: 20px; padding-right: 20px; margin-top: 15px; }
+		#main_gnb_left ul li{float: left; list-style-type: none;}
+		#main_gnb_left ul li a{display: block; font-size: 14px; padding: 2px 10px; color: #444444;}
+		#main_gnb_left ul li a > span > strong{border-bottom:1px solid #000000; }
+			
+
+	#main_lnb{width: 1420px; height:75px; background:#ffffff;
+	z-index:850;  margin: 0 auto;}
+		#main_lnb .lnb_ldep{padding-left:90px; padding-top: 15px;}
+			#main_lnb .lnb_ldep .onedep{float:left; font-size: 17px; }
+			#main_lnb .lnb_ldep .onedep>a{display:block; /* color:#000000; */ padding:18px 47px 16px 47px; letter-spacing:-0.3px; font-weight: bold;}
+			#main_lnb .lnb_ldep>.onedep>a:hover{font-weight:bold; height:60px; box-sizing:border-box; /* color: #fcaf16; */}
+			#main_lnb .lnb_ldep>.onedep>a.acti{color: #fcaf16;}
+			
+			
+		#main_lnb .lnb_ldep .onedep .lnb_2dep_wrap{position:absolute; width:100%; background:#f2f2f2; left:0; top: 135px; z-index:800; border-top:1px solid #999999; border-bottom:1px solid #999999; box-sizing:border-box; display:none;}
+			#main_lnb .lnb_ldep .onedep .lnb_2dep_wrap .lnb_2dep{width:1420px; margin:0 auto; padding:0px 10px; background:#f2f2f2;}
+			#main_lnb .lnb_ldep .onedep .lnb_2dep_wrap .lnb_2dep>li{margin-left:60px; margin-bottom:20px; margin-top:10px; color:#333333;}
+			#main_lnb .lnb_ldep .onedep .lnb_2dep_wrap .lnb_2dep>.dep2_1{margin-left:127px; margin-bottom:20px; margin-top:10px;}
+
+			
+			#main_lnb .lnb_ldep .onedep .lnb_2dep_wrap .lnb_2dep>li>a{display:block; font-size: 15px;; color:#333333;padding:10px 0px 10px 10px; font-weight:bold; border-bottom:1px solid #888888; width:185px; }
+			#main_lnb .lnb_2dep_wrap .lnb_2dep>li>ul>li>a{ display:block;font-size: 14px; color:#333333; padding:10px 0px 0px 10px;}
+			#main_lnb .lnb_2dep_wrap .lnb_2dep>li>ul>li a:hover{color:#d71826;}
+		.login_button{float: left; margin-left: 170px; margin-top: 13px; width: 87px; height: 36px; }
+		.search_button{float: left; margin-left: 30px; margin-top: 17px; width: 28px; height: 27px; }
+		.all_menu_button{float: left; margin-left: 30px; margin-top: 17px; width: 27px; height: 25px; }
+		
+		.balloon{background: #ffffff url(../images/kb.png) no-repeat 10px 12px; border: 2px solid #ffbc04; border-radius: 5px; color: #333333; padding: 7px; position: absolute; display: none;}
+		
+		
+	
+		
+		
+		
+		
+		
+/* 2dep */
+	#main_lnb .lnb_ldep .onedep:hover .lnb_2dep_wrap{display:block;}
+	
+/* 3dep */	
+
+	#main_lnb .lnb_ldep .onedep .lnb_2dep_wrap .dep3{border-top:1px solid #cccccc; margin-top:10px; display:none;}
+		#main_lnb .lnb_ldep .onedep .lnb_2dep_wrap .dep3>li>a{display:block; font-size: 12px; color:#555555;padding:5px 0px 0px 25px;} 
+		#main_lnb .lnb_ldep .onedep .lnb_2dep_wrap .dep3>li>a:hover{color:#000000;} 
+		#main_lnb .lnb_2dep_wrap .lnb_2dep .plus:hover > .dep3{display:block;} 
+	
+
+footer{width: 100%; border-top: 1px solid #c9c9c9;}
+#footer{ width: 1420px; height: 250px; margin: 0 auto; background-color: #ffffff;}
+	#footer_top{width: 1420px; height: 130px;}
+		#footer_top ul li{float: left; list-style-type: none;}
+		#footer_top ul li a{display: block; font-size: 14px; padding: 2px 35px; color: #444444; border-right: 1px solid #666666; text-decoration: none; margin-top: 20px;}
+		#footer_top ul li.last a{border-right: none;}
+		#footer_top p{float: left; font-size: 12px; margin-right: 300px; margin-top: 10px; padding-left: 40px; clear: both;}
+	#footer_left{width: 710px; height: 120px; margin-top: 20px;}	
+		#footer_left a > img{float: left; margin-top:5px; margin-left: 30px;}
+		
+	#footer_right{float: right; width: 710px; height: 120px; list-style-type: none; margin-top:-120px;}	
+		#footer_right img{float: right; padding: 7px; }
+			.box1{width: 35px; height: 35px; overflow: hidden; background: url(../images/sns.png) no-repeat 0 -35px; float: right; margin-right: 5px;}
+			.box2{width: 35px; height: 35px; overflow: hidden; background: url(../images/sns.png) no-repeat -40px -35px; float: right; margin-right: 5px;}
+			.box3{width: 35px; height: 35px; overflow: hidden; background: url(../images/sns.png) no-repeat -80px -35px; float: right; margin-right: 5px;}
+			.box4{width: 35px; height: 35px; overflow: hidden; background: url(../images/sns.png) no-repeat -120px -35px; float: right; margin-right: 5px;}
+			
+		
+		#footer_right .kbnet_link{float: right; padding: 7px; margin-left: 15px; margin-right: 20px; border: 1px solid #c2c2c2; list-style-type: none; list-style-type: none;}
+		#footer_right .kbnet_link ul > li{list-style-type: none;}

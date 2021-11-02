@@ -1,0 +1,25 @@
+﻿#board{width:1400px; padding:20px 100px 0 100px; margin:0 auto;}
+
+ input[type="radio"]{display: none;}
+ input[type="checkbox"]{display: none;}
+#board span{display:block; float:left;}
+#board label>span{/* border-bottom:1px solid #dddddd; */ border-top:1px solid #666666; height:80px; line-height:80px; border-right:1px solid #eeeeee;cursor: pointer; box-sizing:border-box; font-size:1em;}
+
+#board label>span>span{display:block; background:#c52114; height:30px; line-height:27px; margin:25px 720px 0 0; padding:0 10px; color:#ffffff; font-size:0.8em;  font-weight:bold;border-radius:5px; float:right;}
+/* #board .A {border-bottom:1px solid #dddddd; height:auto; vertical-align:middle; width:1000px;} */
+
+.Q{background-color:#ffffff; color:#323c52; text-align:center; font-weight:bold; font-size:1.2em;width:69px; }
+.Q2{background-color:#ffffff; color:#7a7c8d; text-align:center; font-weight:bold; font-size:1.2em;width:69px;}
+.sub{color:#333333; width:200px; padding-left:20px; font-size:0.9em;}
+.title{color:#333333; width:1080px; padding-left:20px;font-size:0.9em;}
+.plu{color:#333333; width:49px; text-align:center; font-weight:bold; font-size:1.2em;}
+
+.Question2 video{margin-top:15px;}
+
+.A1{color:#555555; text-align:center; font-weight:bold; font-size:1.2em;width:68px; padding-top:20px;}
+.answer{color:#333333;  padding: 15px 270px 20px 20px; width: 1040px; line-height: 24px; font-size: 0.95em; background:#f8f8f8;}
+.click:hover{background-color: #efefef; width:1398px;}
+
+#board > div input[type="checkbox"]:checked ~div.A{ max-height:500px; width: 1398px; border-top: 1px solid #efefef;}
+
+.A{overflow:hidden; vertical-align:middle; max-height:0px; transition:max-height 0.8s; }

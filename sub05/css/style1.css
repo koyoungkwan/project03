@@ -1,0 +1,5 @@
+﻿body{padding: 10px 30px; color: #555555; font-family: Arial, Helvetica, sans-serif;}
+table{width: 800px; border-spacing: 1px; font-size: .85em; background: #999999;}
+th.title{width: 450px;}
+td, th{font-weight: normal; border: 2px solid #ffffff; background: #ffffff; padding: .25em .75em; text-align: center; border-radius: 5px;}
+thead th{background: #ffde02; color: #ffffff;}

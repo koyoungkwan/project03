@@ -1,0 +1,104 @@
+﻿*{margin:0; padding:0; border: 0;}
+html{overflow-y:scroll; }
+img{border: 0;}
+ul, li{list-style:none;}
+a{text-decoration:none; display:block;}
+.cf:after{content:''; display:block; clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+.cb{clear:both;}
+
+body{font-family: '맑은 고딕', Malgun Gothic, dotum, "돋움", Arial;}
+
+section{width:100%; height: 1800px;}
+#section{width: 1420px; height: 1800px; margin: 0 auto; }
+	#section_left{width: 794px; height: 1800px; margin-left: 189px; float: left; position: absolute;}
+	#login_choice{float: left; display: inline-block; width: 794px; height: 58px; margin-top: 66px;}
+	#login_choice>h2{width: 120px; height: 58px;  font-size:37px; }
+	#login_choice>ul{float: left; width: 300px; height: 58px; margin-left: 121px; margin-top: -58px;}
+	#login_choice>ul>li{float: left; line-height: 45px; margin-left: 40px; font-size: 15px;}
+	input[type='radio'] {background: #ffffff; border: 2px solid #000000;}
+	input[type='radio']:checked {background: red;}
+	#login_tab{width: 794px; height: 76px;  margin-top: 125px; }
+	.section_pin_tab{width: 198px; height: 76px; margin-top: -2px; cursor: pointer; border-right: 1px solid #898e99; background: #6b727f;}
+	.section_pin_tab ul > li{text-align: center; list-style-type: none; line-height: 76px; font-size:20px; font-weight: bold; letter-spacing: -1px; color: #ffffff;}
+	
+	.section_kbpay_tab{float: left; width: 198px; height: 76px; margin-top: -76px; margin-left: 199px; cursor: pointer; border-right: 1px solid #696969; border-left: none; background: #6b727f;}
+	.section_kbpay_tab ul > li{text-align: center; list-style-type: none; line-height: 76px; font-size:20px; font-weight: bold; letter-spacing: -1px; color: #ffffff;}
+	
+	.section_id_pw_tab{float: left; width: 198px; height: 75px; margin-top: -76px; cursor: pointer; border-top: 1px solid #696969; margin-left: 397px; background: #ffffff; }
+	.section_id_pw_tab ul > li{text-align: center; list-style-type: none; line-height: 74px; font-size:20px; font-weight: bold; letter-spacing: -3px; color: #151515;}
+	
+	.section_joint_certificate_tab{float: left; width: 197px; height: 74px; margin-top: -76px; cursor: pointer; margin-left: 595px; background: #6b727f; border: 1px solid #6b727f; }
+	.section_joint_certificate_tab ul > li{text-align: center; list-style-type: none; line-height: 76px; font-size:20px; font-weight: bold; letter-spacing: -1px; color: #ffffff;}
+	#login_box{width: 792px; height:398px;  border: 1px solid #666666; border-top: none; }
+	#login_box .login_inner{width: 470px; height: 285px; /* background: rgba(0,200,100,0.7); */ margin-left: 50px;}
+	#login_box .form_input01.f_id{margin-left: 77px; padding-top: 95px; width: 500px;}
+	#login_box .form_input01.f_pw{margin-left: 77px; width: 500px; margin-top: 10px;}
+	#login_box .login_inner .label_style{display: inline-block; width: 60px; height: 40px; padding-right: 10px; margin: 0; line-height: 40px; text-align: right;} 
+		input[type="text"],input[type="password"]{height: 28px; padding: 5px 15px; line-height: 28px; border: 1px solid #c2c2c2; border-radius: 5px; outline: none; vertical-align: middle;}
+		input[type="password" i] {-webkit-text-security: disc !; padding: 1px 2px;}
+		
+		input, button{margin: 0; padding: 0;color: #666; font-size: 14px; font-family: NanumGothic, "나눔고딕", "NG","돋움",Dotum,AppleGothic, sans-serif;}
+		
+	label{cursor: default;}
+	.gray{color: #cccccc;}
+	
+		
+	#login_box .form_input01.f_id input[type=text] {width: 360px; height: 32px;}
+	#login_box .form_input01.f_pw input[type=password] {width: 333px; height: 37px;}
+	#login_box .form_input01.f_pw input[type=image] {width: 40px; height: 40px; cursor: pointer;}
+	#login_box .plus_info{width: 396px; height: 65px; cursor: pointer; margin-top: 19px; margin-left: 150px; background: #ffde02; border-radius: 5px;}
+	#login_box .plus_info .btn_area > button{margin-left:160px; line-height: 65px; color: #333333; font-size: 30px; background: #ffde02; cursor: pointer;}
+	#login_box .plus_info .btn_area > button:hover{text-decoration: underline;}
+	
+	#login_box .login_vkey{width: 40px; height: 40px; margin-left: 502px; margin-top: -126px; cursor: pointer;}
+	#login_box .login_vkey input:hover{cursor: pointer;}
+
+	
+	
+	#id_info{width: 794px; height: 268px; }
+		.text_info1{font-size: 12px; margin-top: 15px;}
+		.text_info1>a{float: right; margin-right: 40px; margin-top: 3px; width: 110px; height: 27px; background: #ffffff; border: 1px solid #c6c6c6; border-radius: 5px; text-align: center; line-height: 27px;}
+		.text_info1>a:hover{text-decoration: underline;}
+		.text_info2{font-size: 12px; margin-top: 15px;}
+		.text_info2>a{float: right; margin-right: 450px; margin-top: 3px; width: 80px; height: 27px; background: #ffffff; border: 1px solid #c6c6c6; border-radius: 5px; text-align: center; line-height: 27px;}
+		.text_info2>a:hover{text-decoration: underline;}
+		
+		.btn_area_login_btns > button{width: 100px; height: 40px; background: #ffffff; color: #000000; border: 1px solid #000000; border-radius: 5px; float: left; margin-top: 32px; margin-right: 5px; cursor: pointer;}
+		.btn_area_login_btns > button:hover{text-decoration: underline;}
+		.btn_area_login_btns > button.kb_btns_id_search{margin-left: 232px;}
+		.btn_area_login_btns > button.kb_btns_pwd_change{width: 140px; height: 40px; background: #ffffff; color: #000000; border: 1px solid #000000; border-radius: 5px;}
+	
+	#notification{width: 794px; height: 365px;}
+		.box_type1{border: 1px solid #e1e1e1;}
+		.tip_area .tit_tip{position: relative; padding: 2px 0 0 54px; color: #333333; font-size: 16px; font-weight: bold; line-height: 48px; border-bottom: 1px solid #e1e1e1; text-transform: uppercase; width: 710px;}
+		.tip_area{width: 740px; height: 330px;}
+		.tip_area .list_type1, .tip_area{padding: 10px 30px 16px 20px;}
+		ul{display: block;}
+		.list_type1 li{font-size: 13px;}
+		a, a:link, a:visited, a:active{text-decoration: none;}
+		.list_type1 li{padding: 0 0 10px 10px; line-height: 1.5; width:678px; height: 31px; list-style-type: none;}
+		.color1{color: #e44b3a;}
+		em{font-style: normal;}
+	
+	#section_faq{width: 794px; height: 500px; margin: 0 auto; margin-top: 50px;  /* background: rgba(100,100,50,0.5); */ }
+		#section_faq .login_faq{width: 794px; height: 70px; line-height: 70px; text-align: left; font-size: 25px; font-weight: bold; border-bottom: 1px solid #555555;}
+		#section_faq > div > div.title{width: 794px; height: 70px; text-align: justify; line-height: 70px; font-size: 15px;}
+		#section_faq .content{height: auto; width: 763px; height: 150px; text-align: left; padding: 2%; display: none; background-color: #f8f8f8; overflow-y: auto;}
+		#section_faq div input{display: none;}
+		#section_faq div div {font-size: 15px; color: #222222; line-height: 50px; letter-spacing: -2.1px; height: 154px; float: left; border-bottom: 1px solid #d0cfd5; text-align: left;}
+		#section_faq input:checked ~ div.content{display: block;}
+		#section_faq input:checked ~ div.title > span > button.dropdown{background-position: 0px -16px;}
+		#section_faq input:checked ~ div.title > span > label > span.smalltitle{color: #da2c38;}
+		#section_faq span label, #section_faq div span{cursor: pointer; line-height: 65px; height: 40px; display: block; white-space: nowrap; }
+		#section_faq div span{font-size: 15px; color: #666666;}
+		#section_faq div button{display: block; background: url(../images/icon-arrow-accordion.png) no-repeat; width: 32px; height: 16px; margin: -10px 30px 0 0; border: none; cursor: pointer;}
+	#section_right{width: 300px; height: 1800px; /* background: rgba(177,77,177,0.7);  */float: right; margin-right: 130px; margin-top: -10px;}
+		#member_box{width: 229px; height: 261px; margin-top: 133px; margin-left: 33px; /* background: rgba(70,70,250,0.9); */ border: 1px solid #e1e1e1;}
+		#member_box > ul >li{list-style-type: none; }
+		#member_box > ul >li >a{margin-left: 20px; line-height: 2;}
+		#member_box > ul >li >a:hover{text-decoration: underline;}
+		#member_box > ul >li.color2 {background: #ffdf01; font-weight: bold;}
+		#member_box > ul.title{width: 229px; height: 50px; background: #f9f9f9;}
+		#member_box > ul.title >li{font-weight: bold; font-size: 20px; margin-left: 20px;  line-height: 50px;}

@@ -1,0 +1,16 @@
+﻿*{margin: 0; padding: 0; border: 0;}
+a{text-decoration: none;}
+ul, li{list-style: none;}
+html{overflow-y: hidden;}
+
+#wrap{width: 650px; height: 500px; border-top: 5px solid #ffcf00;}
+#pop_header{width:650px; height: 50px; background: #ffffff;  margin-top: 15px; /* background: rgba(0,0,200,.5); */}
+	.pop_title{float: left;width: 600px; height: 50px; /* background: rgba(0,200,0,.5); */}
+	.pop_close{float: right; width: 50px; height: 50px;  /* background: rgba(0,230,200,.5); */}
+#pop_section{float: left; width: 650px; height: 370px; border-top: 2px solid #e5e5e5; border-bottom: 1px solid #e5e5e5;}
+#pop_bottom{float: left; width: 650px; height: 100px; /* background: rgba(0,100,100,.7); */}
+	.pop_detail{width: 450px; height: 48px; /* background: rgba(0,0,0,.5); */}
+	.pop_detail ul > li{width: 140px; height: 32px; border-radius: 5px; background: #ffde02;  line-height: 32px; display: block; text-align: center; margin-left: 260px; margin-top: 33px;}
+	.pop_detail ul > li:hover{text-decoration: underline;}
+	
+	.pop_checkbox{width: 175px; height: 61px; float: right; margin-top: -45px; margin-left: 25px;}
